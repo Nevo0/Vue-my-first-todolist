@@ -18,7 +18,6 @@ export default {
       e.preventDefault();
       let id = Math.floor(Math.random() * 100 + 1);
       const newTodo = {
-        id: id,
         title: this.title,
         completed: false
       };

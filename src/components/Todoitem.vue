@@ -14,7 +14,7 @@ export default {
   props: ["todo"],
   methods: {
     markComplete() {
-      console.log((this.todo.completed = !this.todo.completed));
+      this.todo.completed = !this.todo.completed;
       //   console.log("123");
     }
   }
